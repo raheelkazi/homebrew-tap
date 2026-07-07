@@ -5,8 +5,8 @@ class CcMeter < Formula
   sha256 "8a821e35779373883dbd026117455ff3fd8f70d363f31b545aac8278a2f79db2"
   license "MIT"
 
-  depends_on :macos
   depends_on xcode: :build
+  depends_on :macos
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
