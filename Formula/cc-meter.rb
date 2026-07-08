@@ -1,8 +1,8 @@
 class CcMeter < Formula
   desc "macOS menu bar app showing your Claude Code usage limits"
   homepage "https://github.com/raheelkazi/cc-meter"
-  url "https://github.com/raheelkazi/cc-meter/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "2952e0fc29b553bdb6c85851db1541ef8b9139393c0ab4f013154af8e0e9305b"
+  url "https://github.com/raheelkazi/cc-meter/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "85ffba21a9b48a2905fd7de092a91ddabbebacac333710255fc4c0cb3598f3be"
   license "MIT"
 
   depends_on xcode: :build
